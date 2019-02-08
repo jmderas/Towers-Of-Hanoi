@@ -31,6 +31,8 @@ main {
     align-items: center;
     flex-direction: column;
 }
+
+
 #ringOne {
     background-image: url("Wood-Color.jpg");
     background-repeat: no-repeat;
@@ -39,6 +41,7 @@ main {
     height: 50px;
     margin: 0 auto;
     display:block;
+    pointer-events: none;
 }
 #ringTwo {
     background-image: url("Wood-Color.jpg");
@@ -48,6 +51,7 @@ main {
     height: 50px;
     margin: 0 auto;
     display:block;
+    pointer-events: none;
 }
 #ringThree {
     background-image: url("Wood-Color.jpg");
@@ -57,6 +61,7 @@ main {
     height: 50px;
     margin: 0 auto;
     display:block;
+    pointer-events: none;
 }
 .foot {
     text-decoration: none;
@@ -76,7 +81,6 @@ a {
 .selected{
     border:3px solid red;
 }
-/* flashing Icon from : http://jsfiddle.net/umz8t/328/  https://www.tutorialspoint.com/online_html_editor.php */
 .hidden{
     display:none;
 }

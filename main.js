@@ -67,8 +67,10 @@ towerTwo.addEventListener('click', function(event){
                 selected = null;
             }
         }else{
-            selected = firstRing;
-            selected.classList.add("selected");
+            if (firstRing) {
+                selected = firstRing;
+                selected.classList.add("selected");
+            }
         }
 });
 towerThree.addEventListener('click', function(event){
@@ -99,7 +101,7 @@ towerThree.addEventListener('click', function(event){
                     }
                     if(weight === '123'){
                         //we harcode this value for our own sanity's sake
-                        alert("Thanks a lot for this hard project, Zackk with two k's.");
+                        alert("Thanks a lot for this hard project, Zakk with two k's.");
                         document.querySelector("#winning").classList.remove("hidden");
                         document.querySelector("#winning").classList.add("blink_me");
 
@@ -111,8 +113,12 @@ towerThree.addEventListener('click', function(event){
                 selected = null;
             }
         }else{
-            selected = firstRing;
-            selected.classList.add("selected");
+            if (firstRing) {
+                selected = firstRing;
+
+                console.log(selected)
+                selected.classList.add("selected");
+            }
         }
 });
 
