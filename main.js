@@ -123,24 +123,15 @@ towerThree.addEventListener('click', function(event){
 
 
 
-// const resetEl = document.querySelector(".reset");
-// const move = document.querySelector('.ringOne');
-// const where = document.querySelectorall('.towers');
-
-
-// var blockOne = document.querySelector('.ringOne');
-// blockOne.style.display = 'none';
-
-
-// const cells = document.querySelectorAll('.reset')
-// resetEl.addEventListener('click', function(e){
-//     e.preventDefault()
-//     currentPlayer = 1
-//     nextPlayer.innerText = "Red"
-
-//      for (i = 0; i < reset.length; i++){
-//          reset[i].style.backgroundColor = "white"
-//          reset[i].style.pointerEvents = "auto"
-//      }
-// })
-
+// Refrences:
+// https://www.w3schools.com/jsref/prop_element_children.asp
+// https://www.w3schools.com/jsref/met_node_appendchild.asp
+// https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_node_insertbefore
+// https://www.w3schools.com/jsref/met_node_insertbefore.asp
+// https://www.w3schools.com/jsref/prop_node_childNodes.asp
+// https://www.w3schools.com/jsref/prop_element_classlist.asp
+// https://stackoverflow.com/questions/14104881/add-remove-class-to-a-dom-element-using-only-javascript-and-best-of-these-2-way
+// https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
+// https://nnguy152.github.io/01-Tower-of-Hanoi/
+// http://jsfiddle.net/umz8t/328/ 
+//  https://www.tutorialspoint.com/online_html_editor.php */

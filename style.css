@@ -76,6 +76,7 @@ a {
 .selected{
     border:3px solid red;
 }
+/* flashing Icon from : http://jsfiddle.net/umz8t/328/  https://www.tutorialspoint.com/online_html_editor.php */
 .hidden{
     display:none;
 }
