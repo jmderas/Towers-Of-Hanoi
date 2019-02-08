@@ -24,38 +24,42 @@ main {
     background-color: white;
     border-style: solid dashed solid dashed;
     border-width: 10px 10px 10px 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-end;
     height: 400px;
     min-width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
 }
-.ringOne {
+#ringOne {
     background-image: url("Wood-Color.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 50px;
     height: 50px;
     margin: 0 auto;
+    display:block;
 }
-.ringTwo {
+#ringTwo {
     background-image: url("Wood-Color.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 150px;
     height: 50px;
     margin: 0 auto;
+    display:block;
 }
-.ringThree {
+#ringThree {
     background-image: url("Wood-Color.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 250px;
     height: 50px;
     margin: 0 auto;
+    display:block;
 }
 .foot {
+    text-decoration: none;
     font-family: Impact;
     margin: 0 auto; 
     display: flex;
@@ -64,61 +68,50 @@ main {
     align-items: center;
     justify-content: center;
 }
-
-
-/* .board {
-    background-image: url("Wood-Color.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 1000px;
-    margin: 0 auto; 
-    height: 100px;
-    border-radius: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    position: relative; 
-    align-items: center;
+a {
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
 }
-/* .towers {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-} */
-/* section {
-    display: flex;
-    flex-direction: column;
-    max-width: 100px;
-    background: #990012;
-    color: #FFFFFF;
-    border-radius: 10px;
-    margin: 0 auto; 
-    text-align: center; 
-    min-height: 400px;
-    justify-content: space-evenly;
-    position: relative;
-    z-index: 1;
-    align-items: baseline;
-    align-items: center;
+.selected{
+    border:3px solid red;
+}
+.hidden{
+    display:none;
+}
+.blink_me {
+    display: inline;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
     
-} */ 
-/* .towerOne {
-    /* display: flex;
-    flex-direction: column;
-    background-image: url("Wood-Color.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 20px;
-    margin: 0 auto;
-    min-height: 600px;
-    border-radius: 50px;
-    position: absolute;
-    z-index: 1; */
-    /* width: 40px;
-    background: #990012;
-    color: #FFFFFF;
-    border-radius: 10px;
-    margin: 5px;
-    text-align: center;
-    line-height: 800px; */
-/* } 
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+
