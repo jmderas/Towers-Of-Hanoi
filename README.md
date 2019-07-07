@@ -1,4 +1,4 @@
-# Project1-Towers-Of-Hanoi
+# Towers-Of-Hanoi
 This is my Project 1 for my Web devolpment Immersive course at General Assembly! This was done three weeks into the course with fundamental knowledge of HTML5, CSS and Javascript. 
 This project is my version of the game of Towers-Of-Hanoi and the object of the game is to move the whole tower-of-Hanoi from one side to the other side, one block at a time. A essiential rule to the game is that you can not put a bigger block on top of a smaller block.
     You must experiment with every block of the tower and find the most efficent way to get the other side.
